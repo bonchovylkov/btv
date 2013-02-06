@@ -1,0 +1,29 @@
+body {
+  background-color: black; }
+  body section ul {
+    margin-left: 280px; }
+    body section ul li {
+      display: inline-block; }
+      body section ul li label img {
+        width: 120px;
+        border: 2px solid white;
+        opacity: 0.7;
+        margin-left: 10px; }
+        body section ul li label img:hover {
+          opacity: 1;
+          box-shadow: white 0px 0px 25px, inset white 0px -10px 10px; }
+  body section form input {
+    display: none; }
+    body section form input:checked + label {
+      display: block; }
+  body section form label {
+    display: none; }
+    body section form label img {
+      width: 670px;
+      margin-left: 330px;
+      border: 2px solid white;
+      opacity: 0.7; }
+      body section form label img:hover {
+        opacity: 1;
+        box-shadow: white 0px 0px 25px, inset white 0px -10px 10px; }
+
