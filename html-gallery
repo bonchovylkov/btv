@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Scss1.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+    </header>
+    <section>
+        <ul>
+            <li><label for="bear"><img  src="img/bear.jpg" /></label></li>
+            <li><label for="lion"><img   src="img/lion.jpg"/></label></li>
+            <li><label for="fish"><img  src="img/fish.jpg"/></label></li>
+            <li><label for="ct"><img  src="img/catDog.jpg"/></label></li>
+            <li><label for="gir"><img  src="img/gir.jpg"/></label></li>
+        </ul>
+        <form>
+            <input type="radio" name="choose" id="bear" >
+            <label for="bear"><img src="img/bear.jpg" alt="bear" /></label>
+            <input type="radio" name="choose" id="lion" >
+            <label for="lion"><img src="img/lion.jpg" alt="lion" /></label>
+            <input type="radio" name="choose" id="fish">
+            <label for="fish"><img src="img/fish.jpg" alt="fish" /></label>
+            <input type="radio" name="choose" id="ct">
+            <label for="ct"><img src="img/catDog.jpg" alt="catDog"  /></label>
+            <input type="radio" name="choose" id="gir">
+            <label for="gir"><img src="img/gir.jpg" alt="gir"/></label>
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>
